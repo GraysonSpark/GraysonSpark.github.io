@@ -1,0 +1,247 @@
+body
+{
+	background-color:#F4F4F4;
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+	font-family:"trebuchet MS";
+}
+
+#bandeau
+{
+	background: url("images/sendai_2.jpg") no-repeat;
+	height:210px;
+	background-size: cover;
+	border-radius:10px;
+}
+
+#trombine
+{
+	margin-top:25px;
+	margin-left:25px;
+    display: inline-block; 
+	vertical-align : top;
+	width: 400px; /* pour pousser USC */
+	/*text-align : left;*/
+	/*border: 1px solid black;*/
+
+}
+
+#USC
+{
+	margin-top:17px; /* positionnement haut/bas */
+	margin-left:10px;
+    display: inline-block; 
+	vertical-align : top;
+	width: 0px; /* pour pousser les titres */
+	/*text-align : left;*/
+	/*border: 1px solid black;*/
+
+}
+
+#moi
+{
+	border:solid 1px black;
+	border-radius:6px; /* bord arrondis de la photo*/
+	box-shadow: 0px 10px 10px black;
+	
+}
+
+#titres
+{
+    display: inline-block;
+    /*width: 670px; */
+    /*border: 1px solid black;*/
+	vertical-align : top;
+	padding: 10px;
+	/*border: solid 1px black;*/
+}
+
+#titres h3
+{
+	text-align:center;
+}
+
+section h1
+{
+	text-align:center;
+}
+
+
+nav
+{
+	background-color:#293133;
+	border-radius: 10px;
+}
+
+nav li
+{
+	display: inline-block;
+	font-size: 1.33em;
+}
+
+.volet2 li
+{
+	padding-top:5px;
+}
+
+nav a
+{
+	text-decoration: none;
+	color: white;
+	padding-left: 43px;
+	padding-right: 43px;
+}
+
+section h4
+{
+	color:grey;
+}
+
+.lien_celuila
+{
+	color:white;
+}
+
+.lien_lesautres
+{
+	color:grey;
+}
+
+nav a:hover
+{
+	color:rgb(132,195,230);
+}
+ 
+section, aside	
+{
+	display:inline-block;
+	vertical-align:top;
+}
+
+section p
+{
+	font-size:0.9em;
+}
+
+aside
+{
+	width:255px;
+	/*border:solid 1px ;*/
+	/*border-radius:8px;*/
+	/*padding:5px;*/
+}
+
+.volet1, .volet2
+{
+	background-color:#D0D0D0;
+	font-size:small;
+	/*border:solid 1px ;*/
+	border-radius:8px;
+	padding:5px;
+	padding-top:5px;
+	padding-bottom:15px;
+	margin-bottom:20px;
+
+}
+
+.volet1
+{
+	padding-left:22px;
+	padding-right:22px;
+}
+
+aside h4
+{
+	font-size : 1.1em;
+	text-align:center;
+	/*border-bottom:solid 1px black;*/
+}
+
+section
+{	
+	width:620px;
+    /*border-right: 1px solid black;*/
+	/*border-left: 1px solid black;*/
+	padding:10px;
+	/*border-radius: 10px;*/
+}
+
+section_2
+{	
+	width:900px;
+    /*border-right: 1px solid black;*/
+	/*border-left: 1px solid black;*/
+	padding:10px;
+	/*border-radius: 10px;*/
+}
+section h2
+{
+	font-size:1.2em;
+	color:black;
+	/*border-bottom:0.5px dotted #9DA1AA;*/
+}
+
+section h1
+{
+	font-size:1.6em;
+}
+
+footer
+{	
+    border-top: 1px solid black;
+	text-align:center;
+	font-size:small;
+	margin-top:20px;
+}
+
+.justifie
+{
+	text-align:justify;
+}
+
+.imageflottante
+{
+	float: right;
+	text-align : center;
+}
+
+.imageflottante_gauche
+{
+	float: left;
+	margin-right:10px;
+}
+
+.petit
+{
+	font-size:0.75em; 
+}
+
+section h5 
+{
+	color:#78858B;
+}
+
+/*
+section a, aside a;
+{
+	text-decoration:none;
+}
+
+section a:visited, aside a:visited
+{
+	color:#9DA1AA;
+}
+*/
+
+section li
+{
+	font-size:0.9em;
+}
+
+
+
+
